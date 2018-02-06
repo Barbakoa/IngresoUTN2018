@@ -4,6 +4,9 @@
 */
 function Mostrar()
 {
-	
+	var nombre;
+	nombre = prompt("Ingrese Nombre"); //Pedis el dato.
+	document.getElementById("elNombre").value = nombre;//Le asignamos el valor de la varible al Html(elNombre)
+
 }
 
